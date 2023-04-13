@@ -15,7 +15,7 @@
 
 pages/api/auth/[...nextAuth].ts
 
-```
+```tsx
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 
@@ -41,7 +41,7 @@ export default NextAuth({
 
 
 pages/login/index.tsx
-```
+```tsx
 import React from "react";
 
 const index = () => {
@@ -60,7 +60,7 @@ export default index;
 
 pages/_app.tsx
 
-```
+```tsx
 import "@/styles/globals.css";
 import { SessionProvider } from "next-auth/react";
 import Component from ".";
@@ -80,7 +80,7 @@ export default function App({
 
 pages/index.tsx
 
-```
+```tsx
 import { useSession, signIn, signOut } from "next-auth/react";
 
 export default function Component() {
