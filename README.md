@@ -3,7 +3,8 @@
 ## Google cloud  дээр хийгдэх үйлдлүүд: 
 1. https://cloud.google.com ороод console руу ороод шинэ project үүсгэх
 2. search хэсгээс Google+ API сонгоох Enable API button дээр дарах
-3. API&Services -> Enabled APIs&services -> Oauth Content screen - шаардлагатай мэдээллийг бөглөнө./project-oo deploy hiisen linkee
+ external гэдэг сонголтыг нь сонгоно.
+3. API&Services -> Enabled APIs&services -> Oauth Content screen - шаардлагатай мэдээллийг бөглөнө./project-oo deploy hiisen linkee esvel ngrok asaagad linkee tavij bolno./
 4. Oauth Content screen step 2 дээр Scope сонгох  
 * Scopes -> ADD OR REMOVE SCOPES -> google -ээр нэвтэрсэн тохиолдолд юу авмаар байгаа тэрийгээ сонгох - email, name
 5. Credentials - > CREATE CREDENTIALS -> OAuth client ID ->сонголт дээр дарна. Үүний дараа Client id болон Client secret -ээ хуулж авна.
