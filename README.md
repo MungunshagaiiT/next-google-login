@@ -6,10 +6,12 @@
 3. API&Services -> Enabled APIs&services -> Oauth Content screen - шаардлагатай мэдээллийг бөглөнө./project-oo deploy hiisen linkee 4. Credentials - > CREATE CREDENTIALS -> OAuth client ID ->сонголт дээр дарна. Үүний дараа Client id болон Client secret -ээ хуулж авна.
 
 ## Installation:
-
+```shell
  npx create-next-app next-google-login
+ ```
+ ```shell
  npm install next-auth
-
+```
 
 ## Code-ийн хэсгүүд:
 
